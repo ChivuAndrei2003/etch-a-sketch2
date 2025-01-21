@@ -40,7 +40,7 @@ function addMoreSquares(numberPerSide) {
             event.target.style.backgroundColor = code;
         });
 
-        container.appendChild(addMoreSquares);
+        container.appendChild(addMoreSquares();
     }
 }
 
