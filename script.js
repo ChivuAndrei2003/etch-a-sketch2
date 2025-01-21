@@ -26,7 +26,7 @@ function addMoreSquares(numberPerSide) {
     const squareSize = 700 / numberPerSide; // Size of each square (700px is the container size)
 
     for (let i = 0; i < totalSquares; i++) {
-        const newSquare = square.cloneNode(true);as
+        const newSquare = square.cloneNode(true);
         newSquare.style.width = `${squareSize}px`;
         newSquare.style.height = `${squareSize}px`;
 
